@@ -6,8 +6,8 @@
 On an Arch based distribution as root, run the following:
 
 ```
-curl https://raw.githubusercontent.com/JoaoAPS/LARBS/master/larbs.sh
-sh LARBS/larbs.sh
+curl https://raw.githubusercontent.com/JoaoAPS/LARBS/master/larbs.sh > larbs.sh
+sh larbs.sh
 ```
 
 That's it.
