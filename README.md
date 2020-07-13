@@ -51,6 +51,7 @@ want to install afterwards.
 - sshfs
 - cowsay
 - Okular
+- ipython
 
 ### Sublime Text Packages
 - AdvancedNewFile
