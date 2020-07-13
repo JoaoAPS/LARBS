@@ -1,5 +1,0 @@
-steam
-tuxguitar
-julia
-duplicity
-
