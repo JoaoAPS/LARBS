@@ -40,6 +40,9 @@ phrase) that describes the program.
 This is a list of programs that LARBS won't install automatically, but that you may 
 want to install afterwards.
 
+### Programs LARBS can't install automatically
+- [Reversal Icon Theme](https://github.com/yeyushengfan258/Reversal-icon-theme)
+
 ### Optional Programs
 - VS Code
 - Libre Office
