@@ -192,6 +192,7 @@ installpkg curl
 installpkg base-devel
 installpkg git
 installpkg ntp
+installpkg python-pip
 
 dialog --title "LARBS Installation" --infobox "Synchronizing system time to ensure successful and secure installation of software..." 4 70
 ntpdate 0.us.pool.ntp.org >/dev/null 2>&1
