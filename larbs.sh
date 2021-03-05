@@ -235,8 +235,9 @@ alias config='/usr/bin/git --git-dir=/home/$name/.dotfiles/ --work-tree=home/$na
 echo -e "alias config='/usr/bin/git --git-dir=/home/$name/.dotfiles/ --work-tree=/home/$name'\n" | tee .bashrc .zrc > /dev/null
 git clone --bare $dotfilesrepo /home/$name/.dotfiles
 config checkout -f > 2>&1
+config config --local status.showUntrackedFiles no
 
-rm -f "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
+rm -f "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml" 2> /dev/null
 # make git ignore deleted LICENSE & README.md files
 config update-index --assume-unchanged "/home/$name/README.md"
 config update-index --assume-unchanged "/home/$name/LICENSE"
